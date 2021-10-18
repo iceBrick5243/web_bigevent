@@ -47,6 +47,7 @@ $(function () {
                 // console.log(res.token)
                 // 本地存储token
                 localStorage.setItem('token',res.token)
+                location.href='/web_bigevent/index.html'
             }
         })
     })
